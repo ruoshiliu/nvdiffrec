@@ -31,7 +31,7 @@ Below is an example with Cuda 11.6
 
 ```
 conda create -n dmodel python=3.9
-activate dmodel
+conda activate dmodel
 conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
 pip install ninja imageio PyOpenGL glfw xatlas gdown
 pip install git+https://github.com/NVlabs/nvdiffrast/
